@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: hsl(225, 100%, 94%);
+
+}
+
+
+.box-card{
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+     
+    max-width: 50vw;
+    height: 75vh;
+    background-color: white;
+    border-radius: 20px;
+
+    overflow: hidden;    
+}
+
+.card{
+    width: 400px;
+    height: 40%;
+}
+.text-content{
+
+    text-align: center;
+    font-family: 'Red Hat Display', sans-serif;
+    padding: 7%;
+}
+.heading{
+
+    color:  hsl(223, 47%, 23%);
+    text-align: center;
+    font-size: 25px;
+     
+}
+
+.info{
+
+    font-size: 16px;
+    padding-top: 1em;
+    text-align: center;
+    font-weight:lighter;
+    width: 20rem;
+    line-height: 25px;
+    color:  hsl(224, 23%, 55%);
+
+}
+
+.plan-card{
+
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin: 20px;
+    padding:  15px 25px;
+    border-radius: 20px;
+    background-color: hsl(225, 100%, 98%);
+
+}
+.musics{
+
+    width: 40px;
+    height: 40px;
+
+}
+.mats{
+    position: absolute;
+    top: 22px;
+    left: 80px;
+}
+.mat1{
+
+    font-size: 16px;
+    color: hsl(223, 47%, 23%);
+
+}
+.mat2{
+
+    font-size: 13px;
+    font-weight: lighter;
+    text-align: left;
+    color:  hsl(224, 23%, 55%);
+}
+
+.link{
+
+    position: absolute;
+    top: 25px;
+    left: 235px;
+    font-weight:lighter;
+    text-decoration: none;
+    color: hsl(249, 100%, 73%);
+}
+
+
+.payments{
+
+    position: relative;
+    background-color: hsl(245, 100%, 76%);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px hsl(259, 100%, 88%);
+    font-size: 16px;
+    margin: 20px;
+}
+
+.cancle{
+
+    font-size: 16px;
+}
+
+
